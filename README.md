@@ -3,6 +3,7 @@
 ## Table of Contents
 
 - [Class-1 (Introduction to Generative AI)](#class-1-introduction-to-generative-ai)
+- [Class-2 (Introduction to Generative AI - 2)](#class-2-introduction-to-generative-ai---2)
 
 ### Class-1 (Introduction to Generative AI)
 
@@ -20,3 +21,18 @@
   - Transformers: Transformer architectures, such as those used in GPT models, have revolutionized natural language processing and generation by enabling models to capture long-range dependencies in text.
 - Reinforcement Learning: Some generative models can be trained using reinforcement learning techniques, where the model learns to generate content based on feedback and rewards.
 - Generative AI has numerous applications across various industries, including entertainment, healthcare, marketing, and more. It has the potential to revolutionize creative processes, automate content generation, and enhance user experiences.
+
+### Class-2 (Introduction to Generative AI - 2)
+
+- Initially AI was `rule-based`, relying on predefined rules and logic to make decisions. However, with the advent of machine learning, AI systems began to learn from data and improve their performance over time.
+- Later `Machine Learning (ML)` emerged as a subfield of AI, focusing on developing algorithms that allow computers to learn from data without being explicitly programmed. ML algorithms can identify patterns, make predictions, and adapt to new information.
+- `Deep Learning (DL)` is a subset of ML that utilizes neural networks with multiple layers to model complex relationships in data. DL has been instrumental in advancing Generative AI, enabling the creation of sophisticated models capable of generating high-quality content.
+
+- _LLMs (Large Language Models)_ are a type of deep learning model that has gained significant attention in recent years. These models are trained on vast amounts of text data and can generate coherent and contextually relevant text based on prompts. LLMs have been used in various applications, including chatbots, virtual assistants, and content generation.
+
+- How LLMs work:
+  - LLMs are typically based on transformer architectures, which allow them to capture long-range dependencies in text and generate contextually appropriate responses.
+  - During training, LLMs learn to predict the next word in a sequence of text, enabling them to generate coherent sentences and paragraphs.
+  - LLMs can be fine-tuned on specific tasks or domains, allowing them to specialize in generating content for particular applications.
+
+_Prompt > Knowledge > Memory > Tools_
