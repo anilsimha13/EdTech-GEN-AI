@@ -4,6 +4,7 @@
 
 - [Class-1 (Introduction to Generative AI)](#class-1-introduction-to-generative-ai)
 - [Class-2 (Introduction to Generative AI - 2)](#class-2-introduction-to-generative-ai---2)
+- [Class-3 (Agents - Real World Applications)](#class-3-agents---real-world-applications)
 
 ### Class-1 (Introduction to Generative AI)
 
@@ -36,3 +37,7 @@
   - LLMs can be fine-tuned on specific tasks or domains, allowing them to specialize in generating content for particular applications.
 
 _Prompt > Knowledge > Memory > Tools_
+
+### Class-3 (Agents - Real World Applications)
+
+- `Intrakat application` and `Make` of Generative AI in real-world scenarios has led to the development of intelligent agents that can perform tasks autonomously and assist users in various domains. These agents leverage the capabilities of Generative AI models to understand user inputs, generate relevant responses, and take actions based on the context.
