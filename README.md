@@ -6,6 +6,8 @@
 - [Class-2 (Introduction to Generative AI - 2)](#class-2-introduction-to-generative-ai---2)
 - [Class-3 (Agents - Real World Applications)](#class-3-agents---real-world-applications)
 - [Class-4 (Prompts)](#class-4-prompts)
+- [Class-5 (Prompts-2)](#class-5-prompts-2)
+- [Class-6 (Prompts-3)](#class-6-prompts-3)
 
 ### Class-1 (Introduction to Generative AI)
 
@@ -43,7 +45,7 @@ _Prompt > Knowledge > Memory > Tools_
 
 - `Intrakat application` and `Make` of Generative AI in real-world scenarios has led to the development of intelligent agents that can perform tasks autonomously and assist users in various domains. These agents leverage the capabilities of Generative AI models to understand user inputs, generate relevant responses, and take actions based on the context.
 
-### Class-4 (Prompts)
+### Class-4 (Prompts-1)
 
 - Different Types of Prompts:
   - _Zero-shot prompts_: These prompts provide a task description without any examples, and the model is expected to generate a response based solely on its pre-trained knowledge.
@@ -51,3 +53,16 @@ _Prompt > Knowledge > Memory > Tools_
   - _Few-shot prompts_: These prompts provide multiple examples of the desired output, enabling the model to learn from the examples and generate a response that aligns with the provided context.
   - _Chain-of-thought prompts_: These prompts encourage the model to generate intermediate reasoning steps before arriving at a final answer, allowing for more complex problem-solving and reasoning.
   - _Role-based prompts_: These prompts assign specific roles or personas to the model, guiding its responses based on the assigned role and context.
+
+### Class-5 (Prompts-2)
+
+- Roles
+- Context
+- Gaurdrails
+- Output format
+- Task
+- Input data
+
+### Class-6 (Prompts-3)
+
+- Real-time Prompt builder for Sales Agent in Softwareschool website
