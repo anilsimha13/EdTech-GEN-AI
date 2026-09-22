@@ -5,9 +5,11 @@
 - [Class-1 (Introduction to Generative AI)](#class-1-introduction-to-generative-ai)
 - [Class-2 (Introduction to Generative AI - 2)](#class-2-introduction-to-generative-ai---2)
 - [Class-3 (Agents - Real World Applications)](#class-3-agents---real-world-applications)
-- [Class-4 (Prompts)](#class-4-prompts)
+- [Class-4 (Prompts-1)](#class-4-prompts-1)
 - [Class-5 (Prompts-2)](#class-5-prompts-2)
 - [Class-6 (Prompts-3)](#class-6-prompts-3)
+- [Class-7 (Python-1)](#class-7-python-1)
+- [Class-8 (Python-2)](#class-8-python-2)
 
 ### Class-1 (Introduction to Generative AI)
 
@@ -66,3 +68,28 @@ _Prompt > Knowledge > Memory > Tools_
 ### Class-6 (Prompts-3)
 
 - Real-time Prompt builder for Sales Agent in Softwareschool website
+
+### Class-7 (Python-1)
+
+- Basics of Python
+  - Variables and Data Types
+  - Comments
+  - Operators
+  - Print
+
+### Class-8 (Python-2)
+
+- Control Flow Basics
+  - Conditional Statements (if, elif, else)
+  - Loops (for, while)
+  - Break and Continue Statements
+  - Pass Statement
+- Methods
+  - Defining and Calling Functions
+- Packages
+  - Importing and Using Packages
+  - Installing Packages with pip
+  - `pip install uvicorn`
+    - run the FastAPI application using Uvicorn: `uvicorn app:app --reload`
+  - `pip install fastapi`
+    -
