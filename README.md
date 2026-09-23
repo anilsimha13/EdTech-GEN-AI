@@ -92,4 +92,8 @@ _Prompt > Knowledge > Memory > Tools_
   - `pip install uvicorn`
     - run the FastAPI application using Uvicorn: `uvicorn app:app --reload`
   - `pip install fastapi`
-    -
+    - `from fastapi import FastAPI`
+
+- ### Class-9 (Python-3)
+  - `pip install openai`
+  - Integrating OpenAI API with FastAPI
