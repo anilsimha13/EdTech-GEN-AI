@@ -97,3 +97,32 @@ _Prompt > Knowledge > Memory > Tools_
 - ### Class-9 (Python-3)
   - `pip install openai`
   - Integrating OpenAI API with FastAPI
+
+- ### Class-10 (MYSQL-1)
+  - Installation of MYSQL
+  - Basics of MYSQL
+
+- ### Class-11 (MYSQL-2)
+  - Insert query
+  - Get query
+  - Filter query
+
+```SQL
+
+select * from users;
+
+-- to get few columns from table
+select email,name from users ;
+
+-- insert into users values(5,'Admin','admin@gmail.com','ALL','Admin','Live');
+
+insert into users(name,email,interested_course,current_status,course_type) values('super admin','superadmin@gmail.com','ReactJS','Active','Offline');
+
+select name from users where  interested_course='AI';
+
+update users set interested_course='AI' where user_id=4;
+
+delete from users where user_id=6;
+
+
+```
