@@ -10,6 +10,10 @@
 - [Class-6 (Prompts-3)](#class-6-prompts-3)
 - [Class-7 (Python-1)](#class-7-python-1)
 - [Class-8 (Python-2)](#class-8-python-2)
+- [Class-9 (Python-3)](#class-9-python-3)
+- [Class-10 (MYSQL-1)](#class-10-mysql-1)
+- [Class-11 (MYSQL-2)](#class-11-mysql-2)
+- [Class-12 (MYSQL-3 & Python-4)](#class-12-mysql-3--python-4)
 
 ### Class-1 (Introduction to Generative AI)
 
@@ -126,3 +130,8 @@ delete from users where user_id=6;
 
 
 ```
+
+- ### Class-12 (MYSQL-3 & Python-4)
+  - Inner join
+    - Left
+    - Right
