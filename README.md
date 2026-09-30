@@ -135,3 +135,7 @@ delete from users where user_id=6;
   - Inner join
     - Left
     - Right
+
+- ### Class-13 (RAG-1)
+- Vector DB
+  - chromaDB
