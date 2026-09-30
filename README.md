@@ -137,5 +137,10 @@ delete from users where user_id=6;
     - Right
 
 - ### Class-13 (RAG-1)
-- Vector DB
-  - chromaDB
+  - Vector DB
+    - chromaDB
+
+- ### Class-14 (RAG-2)
+  - `pip install python-multipart`
+  - `pip install pypdf`
+  - `pip install python-docx`
