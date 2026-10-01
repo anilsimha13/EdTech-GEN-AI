@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 import uuid
 from pypdf import PdfReader
 from docx import Document
+from pydantic import BaseModel
 load_dotenv()
 
 app = FastAPI()
@@ -45,10 +46,24 @@ def process_pdf(file):
         data = data + (page.extract_text() or "")
     return data
 
+    
+
 def process_doc(file):
     print('Processing Document')
 def process_txt(file):
     print('Processing Text file')
+
+def convert_to_chunks(data):
+    chunk_size =3
+    chunks= []
+    for i in range(0,len(data),chunk_size):
+        chunks.append(data[i:i+chunk_size])
+    return chunks
+
+@app.get("/api/chunks")
+def chunks():
+   return convert_to_chunks("asdfghjklwertyuipmnbvcxzpoiuytrewqlkjhgfdsamnbvcxz")
+
 
 @app.post('/api/upload-file')
 def upload_file(file:UploadFile=File(...)):
@@ -65,3 +80,21 @@ def upload_file(file:UploadFile=File(...)):
         process_msg = 'Processing text file'
         process_txt(file)
     return {'message':'Upload file successful',"file_data":file,"processing_msg":process_msg,'data':data}
+
+#DTO Classes
+
+class ChatRequest(BaseModel):
+    user_msg:str
+
+@app.post("/api/chat")
+def chat(chat_request:ChatRequest):
+
+    prompt = """
+            You are HR specialist and if any user ask for leave policies please answer them politely and professionally, dont go rude or dont use foul language
+
+            Leave Policy:
+
+            """
+
+
+    return {"message":"Chat API response"}

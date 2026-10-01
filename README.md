@@ -144,3 +144,5 @@ delete from users where user_id=6;
   - `pip install python-multipart`
   - `pip install pypdf`
   - `pip install python-docx`
+
+- ### Class-15 and 16 (RAG-3/4)
